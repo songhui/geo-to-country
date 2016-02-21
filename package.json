@@ -1,0 +1,20 @@
+{
+  "name": "geo-to-country",
+  "version": "0.0.1",
+  "description": "Check approximately which country a GEO point is inside",
+  "author": { "name": "Hui Song"},
+  "main" : "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-map": "node maps.js"
+  },
+  "dependencies": {
+    "point-in-polygon": "1.0.0",
+    "shapefile": "0.3.1",
+    "express": "4.13.4",
+    "unzip": "0.1.11",
+    "request": "2.69.0",
+    "rimraf": "2.5.2" 
+  }
+
+}
