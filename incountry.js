@@ -6,7 +6,7 @@ function load(callback){
   var name = maps.use
   console.log("Use map: " + name + "\n");
   var path = maps.usepath
-  load_shapefile(path, callback)
+  return load_shapefile(path, callback)
 }
 
 function load_shapefile(filename, callback){
